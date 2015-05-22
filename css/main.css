@@ -1,0 +1,36 @@
+body {
+	font-family: sans-serif;
+	line-height: 150%;
+	margin: 80px, 0px;
+	color: #000000;
+	background-color: #ffffff;
+	background-image: url(../images/bg.jpg);
+	background-attachment: fixed;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	border: 0;
+	background-color: #FFFFCC;
+}
+
+.header {
+	padding: 0px 0px;
+	font-weight: bold;
+}
+
+.menu {
+	padding: 0px 0px;
+	font-weight: bold;
+}
+
+li.menu {
+	display: inline;
+	list-style-type: none;
+}
+
+a:link, a:visited, a:active, a:hover {
+  color: #C00;
+  text-decoration: none;
+}
